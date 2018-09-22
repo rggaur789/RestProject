@@ -8,8 +8,8 @@ Assumptions:
  5. The inclusion of WAR file in the project reduces the effort to run the project.
   
   
-  
-1. Download the WAR fiel of the project from the gooogle drive link (https://drive.google.com/file/d/1Nkj9C0fVCHtHkfXbmCzdNgwC7EjBonui/view?usp=sharing)
+ Instructions to Run the Project:
+1. Download the WAR file of the project from the gooogle drive link (https://drive.google.com/file/d/1Nkj9C0fVCHtHkfXbmCzdNgwC7EjBonui/view?usp=sharing)
 2. Download the DockerFile from the github repository.
 3. Copy Both the DockerFile and WAR file in the same directory.
 4. Now go to the Directory To which you have copied the DockerFile and the WAR file and build the DockerFile with the command 
@@ -17,3 +17,5 @@ Assumptions:
 5. Now Run the image with the command ("docker run -d  -p 8080:8080  --name mydockerappnew app")
 6. Now to to your browser and and enter the URL("http://localhost:8080/RestProject/one") which will give the output corresponding to the Key "one".
 7. Similarly we can change the key and it will return the json corresponding to it.
+8. The PostMan Collection are added to the project with the file name "RestProject.postman_collection.json".
+9. The JUnit Test cases are also included in the project in the directory "/WEB-INF/classes/com/org/test/goibibo/".
