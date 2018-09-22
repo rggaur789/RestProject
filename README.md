@@ -5,7 +5,7 @@ Assumptions:
  2.The CSV or Excel File should be in the folder Excel of the Project.
  3. The CSV or Excel File should in the format utf-8 otherwise the code will not be able to read the file.
  4.The Google Drive Link of WAR file is shared with the Abhiram Bhat email id as ("abhirama.bhat@go-mmt.coom").
- 5. The inclusion of WAR file in the project reduces the effort to reun the project.
+ 5. The inclusion of WAR file in the project reduces the effort to run the project.
   
   
   
